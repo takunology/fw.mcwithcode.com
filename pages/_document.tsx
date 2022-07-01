@@ -5,7 +5,7 @@ const Document = () => {
         <Html lang="ja-JP">
             <Head>
             <meta name="description" content="hoge" />
-            <link rel="icon" href="/favicon.png" />
+            <link rel="icon" href="./images/favicon.png" />
             </Head>
             <body>
                 <Main />
