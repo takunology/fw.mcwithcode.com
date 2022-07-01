@@ -4,6 +4,6 @@ const nextConfig = {
 }
 
 module.exports = {
-  basePath: process.env.GITHUB_ACTIONS ? "/mcwithcode-fw-website" : "",
+  basePath: process.env.GITHUB_ACTIONS ? "/fw.mcwithcode.com" : "",
   trailingSlash: true,
 };

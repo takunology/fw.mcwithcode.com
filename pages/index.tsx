@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col bg-cover bg-center md:bg-fixed" style={{backgroundImage:("url(./images/bg.png)")}}>
       <Head>
-        <title>Fireworks Project - Top</title>
+        <title>Fireworks Project</title>
       </Head>
       <main className='lg:max-w-screen-2xl md:px-20 ms:px-5 mx-auto'>
         <div>
