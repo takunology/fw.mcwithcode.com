@@ -10,7 +10,7 @@ const description02: string = "C#プログラミングを用いてマイクラ�
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col bg-cover bg-center md:bg-fixed" style={{backgroundImage:("url(../images/bg.png)")}}>
+    <div className="flex flex-col bg-cover bg-center md:bg-fixed" style={{backgroundImage:("url(./images/bg.png)")}}>
       <Head>
         <title>Fireworks Project - Top</title>
       </Head>
@@ -22,12 +22,12 @@ const Home: NextPage = () => {
               <p className='text-sm mb-10'>新プロジェクト始動。<br/>Minecraft と C# プログラミングによる、花火大会の実現と演出。</p>
             </div>
           </section>
-          <SpritViewImg imgSrc='../images/00.png' title={title01} description={description01} isRight={true}/>
+          <SpritViewImg imgSrc='./images/00.png' title={title01} description={description01} isRight={true}/>
           <SpritViewVideo videoSrc='https://www.youtube.com/embed/9yzj5DeJ94c' title={title02} description={description02}/>      
           <section>
             <div className="grid lg:grid-cols-2 gap-6 m-5">
-              <CollectionTwice title='マイクラ花火師入門（8月公開予定）' category='Document' imgSrc='../images/dummy.png' href='#'/>
-              <CollectionTwice title='花火のレシピノート' category='Code' imgSrc='../images/cat.png' href='https://zenn.dev/takunology/scraps/9462b03d13dd0a'/>
+              <CollectionTwice title='マイクラ花火師入門（8月公開予定）' category='Document' imgSrc='./images/dummy.png' href='#'/>
+              <CollectionTwice title='花火のレシピノート' category='Code' imgSrc='./images/cat.png' href='https://zenn.dev/takunology/scraps/9462b03d13dd0a'/>
             </div>
           </section>
         </div>
