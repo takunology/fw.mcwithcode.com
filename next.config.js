@@ -6,4 +6,5 @@ const nextConfig = {
 module.exports = {
   basePath: process.env.GITHUB_ACTIONS ? "/fw.mcwithcode.com" : "",
   trailingSlash: true,
+  assetPrefix: '/fw.mcwithcode.com/',
 };
