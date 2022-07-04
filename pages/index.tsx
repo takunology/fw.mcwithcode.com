@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <div>
           <section>
             <div className='text-center'>
-              <h1 className='text-3xl my-5'>Minecraft with Code Project <br/> Fireworks Project</h1>
+              <h1 className='text-2xl my-5'>Minecraft with Code Project <br/> Fireworks Project</h1>
               <p className='text-sm mb-10'>マイクラ花火師を目指す。<br/>Minecraft と C# プログラミングによる、花火大会の実現と演出。</p>
             </div>
           </section>
