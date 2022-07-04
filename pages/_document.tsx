@@ -4,8 +4,8 @@ const Document = () => {
     return (
         <Html lang="ja-JP">
             <Head>
-            <meta name="description" content="hoge" />
-            <link rel="icon" href="./images/favicon.png" />
+            <meta name="description" content="Minecraft with Code Project によるもう一つのプロジェクト。C# プログラミングでマイクラ花火大会を実現するプロジェクトです。" />
+            <link rel="icon" href="./images/favicon.webp" />
             </Head>
             <body>
                 <Main />
