@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <SpritViewVideo videoSrc='https://www.youtube.com/embed/9yzj5DeJ94c' title={title02} description={description02}/>      
           <section>
             <div className="grid lg:grid-cols-2 gap-6 m-5">
-              <CollectionCard title='マイクラ花火師入門（8月公開予定）' category='Document' imgSrc='./images/dummy.webp' href=''/>
+              <CollectionCard title='マイクラ花火師入門' category='Document' imgSrc='./images/slide.webp' href='https://speakerdeck.com/takunology/maikurahua-huo-shi-ru-men'/>
               <CollectionCard title='花火のレシピノート' category='Code' imgSrc='./images/cat.webp' href='https://zenn.dev/takunology/scraps/9462b03d13dd0a'/>
             </div>
           </section>
